@@ -4,8 +4,6 @@ A project-first Herdr window: the left sidebar is a tree of spaces → sessions 
 
 ![Herdr Chatdesk](preview.png)
 
-**Draft for review — not published to the gallery yet.**
-
 ## What it adds
 
 - **Chat / Terminal in place.** On a Claude Code, Codex, Pi or Antigravity pane, the header's switch parks the terminal (it keeps running) and shows the conversation in the main pane; Terminal brings it back.
@@ -16,10 +14,10 @@ A project-first Herdr window: the left sidebar is a tree of spaces → sessions 
 ## Install
 
 ```text
-Read ~/.config/herdr-app/AGENTS.md, then add this layout: herdr.dev/layouts/YouAI-Liu/chatdesk
+Read ~/.config/herdr-app/AGENTS.md, then add this layout: herdr.dev/layouts/YouAI-Liu/herdr-chatdesk
 ```
 
-(Not live yet: this repo is private until the preview is approved.)
+After adding it, switch with `herdr-app do layout.switch --name chatdesk` (or the layout switcher).
 
 The layout is `layouts/chatdesk.json`; the mods it needs are in `mods/`. The full brief is in [RECIPE.md](RECIPE.md).
 
