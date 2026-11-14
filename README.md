@@ -1,15 +1,18 @@
 # Herdr Chatdesk
 
-A project-first Herdr window: the left sidebar is a tree of spaces → sessions → sub-agents, the right side flips between an agent's chat and its real terminal, and New space asks for a folder and then for the session to start there.
+A project-first layout for Herdr: every project is a space, every session and sub-agent sits in one tree, and any agent can flip between a readable chat and its real terminal. New space is a two-step folder → session flow.
+
+## Highlights
+
+1. **Chat ↔ Terminal, in place.** Flip a Claude Code, Codex, Pi or Antigravity pane between its real terminal and a readable chat. The agent keeps running while Chat is open; Terminal brings it back in the same spot.
+2. **Sub-agents in a tree.** A lead agent's helpers nest under its session, with working / waiting / done marks, so a project's whole agent tree is visible at a glance.
+3. **New space in two steps.** The `+` on a machine picks a folder, then an installed agent or a plain terminal. Esc cancels without creating anything; the folder stays in Recents.
 
 ![Herdr Chatdesk](preview.png)
 
-## What it adds
+## The window
 
-- **Chat / Terminal in place.** On a Claude Code, Codex, Pi or Antigravity pane, the header's switch parks the terminal (it keeps running) and shows the conversation in the main pane; Terminal brings it back.
-- **Projects on the left.** Machines → spaces → sessions → helpers, with blocked / working / done / idle marks and a fold per space.
-- **Sub-agent tree.** Helpers started by a lead agent nest under its session, however deep.
-- **New space, then session.** The `+` on a machine header picks a folder, then asks whether to start an agent (installed on that machine) or a plain terminal.
+On the left, machines → spaces → sessions → helpers. On top, tabs with status and the Files / Changes buttons. In the middle, the chat or the real terminal. On the right, an optional panel. The sidebar is 268px, the tab bar 42px, the status bar 28px; the side panel is 368px and stays hidden until opened.
 
 ### The new-space flow
 

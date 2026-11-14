@@ -2,6 +2,12 @@
 
 A project-first Herdr window: the left sidebar is a tree of spaces → sessions → sub-agents, the right side flips between an agent's chat and its real terminal, and New space asks for a folder and then for the session to start there.
 
+## Highlights
+
+1. **Chat ↔ Terminal, in place.** Flip a Claude Code, Codex, Pi or Antigravity pane between its real terminal and a readable chat; the agent keeps running while Chat is open.
+2. **Sub-agents in a tree.** Helpers nest under the session that started them, with working / waiting / done marks.
+3. **New space in two steps.** Pick a folder, then an installed agent or a plain terminal. Esc creates nothing; the folder stays in Recents.
+
 ![Herdr Chatdesk](preview.png)
 
 ## What you see
