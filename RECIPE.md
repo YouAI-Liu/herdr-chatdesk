@@ -55,7 +55,12 @@ A 268px sidebar, a 42px tab bar, the main pane, an optional 368px side panel and
 ### New space
 
 - The machine header's `+` opens `space-new`: a 640×560 folder dialog with search, favorites and recents, scanned by `folders.py` with Python 3.
+
+  ![Choose a folder](new-space.png)
+
 - Choosing a folder opens the `session-new` popup, 250×300: the machine's installed agents (from `knownAgents`) plus **Terminal**. The popup's header shows the chosen folder and the machine.
+
+  ![Choose a session](new-session.png)
 - Picking an agent creates the space with `space.new { folder, machine, tab: agent.name, argv: agent.run }`; picking Terminal creates it with the folder only. Esc closes the popup without creating anything; the folder stays in Recents.
 - The `+` on a space row opens the same popup for that space and adds a tab instead of a space.
 
@@ -132,7 +137,7 @@ root row
 ## Files
 
 - `RECIPE.md`
-- `preview.png`
+- `preview.png`, `new-space.png`, `new-session.png`
 - `LICENSE`, `LICENSE-Shepherdr`, `LICENSE-Herdr`, `NOTICE`
 - `layouts/chatdesk.json`
 - `mods/session-tree/`

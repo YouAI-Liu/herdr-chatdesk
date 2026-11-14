@@ -11,6 +11,12 @@ A project-first Herdr window: the left sidebar is a tree of spaces → sessions 
 - **Sub-agent tree.** Helpers started by a lead agent nest under its session, however deep.
 - **New space, then session.** The `+` on a machine header picks a folder, then asks whether to start an agent (installed on that machine) or a plain terminal.
 
+### The new-space flow
+
+![Choose a folder](new-space.png)
+
+![Choose a session](new-session.png)
+
 ## Install
 
 ```text
