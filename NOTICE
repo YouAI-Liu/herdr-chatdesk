@@ -1,0 +1,14 @@
+Herdr Chatdesk
+Copyright (c) 2026 YouAI-Liu. MIT licensed: see LICENSE.
+
+Herdr Chatdesk is a Herdr layout built on Shepherdr by Elias Stravik.
+The chat mods (chat, chat-models, chat-react, chat-image, pane-chat) are
+modified from Shepherdr, Copyright (c) 2026 Elias Stravik, MIT licensed:
+see LICENSE-Shepherdr. The standalone chat mode, session tree, tab bar and
+New space flow are Chatdesk's changes.
+
+Some mods began as copies of mods the Herdr app ships. Herdr is licensed
+under the Apache License 2.0: see LICENSE-Herdr.
+
+Some icons come from Lucide (https://lucide.dev, ISC license), as the
+Herdr app ships them.
